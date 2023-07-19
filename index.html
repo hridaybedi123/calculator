@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Speed, Distance, and Time Calculator</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <style>
+      
+    </style>
+  </head>
+  <body>
+    <h1>Speed, Distance, and Time Calculator</h1>
+    <img src="https://i1.faceprep.in/Companies-1/time-speed-distance-formula.png" id="image" alt="Image">
+    <form>
+      <label for="speed">
+        Speed (mph):
+        <input type="number" id="speed" name="speed" required>
+      </label>
+      <label for="distance">
+        Distance (miles):
+        <input type="number" id="distance" name="distance" required>
+      </label>
+      <label for="time">
+        Time (hours):
+        <input type="number" id="time" name="time" required>
+      </label>
+      <button type="button" onclick="calculate()">Calculate</button>
+    </form>
+    <br>
+    <div id="result"></div>
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>
